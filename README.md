@@ -1,4 +1,4 @@
-What is javascript?
+## What is javascript?
 
 1. JS is the most popular programming language and acts a great foundation
    for developers.
@@ -6,11 +6,11 @@ What is javascript?
 3. JS is our first programming language - this is the first time we will write
    something that will tell our page what to do programatically.
 
-##Data Types - String
+## Data Types - String
 	includes alphanumeric characters and special characters
 	which have to be enclosed in either single or double quotes.
 
-##Data Type - Number/Numeric
+## Data Type - Number/Numeric
 
 	Includes all possible numeric values including NaN
 	(Not a Number), positive infinity and negative infinity.
@@ -24,22 +24,22 @@ What is javascript?
 
 	We use numbers/numeric data-type for computations.
 
-#Boolean
+# Boolean
 	holds true or false.
 
-#Undefined
+# Undefined
 	represents the state of a variable that's been declared but has no assigned value
 
-#Null
+# Null
 	used to intentionally express the absence of a value in a variable declaration
 
-#Objects
+# Objects
 	Objects are variables too. But objects can contain many values.
 	The values are written as name: value (name and value separated by a colon)
 	A javascript objects is a collection named values.
 	The named values in JS objects are called properties.
 
-##Arithmetic Operators
+## Arithmetic Operators
 	mathematical operations are carried out using simple operators
 
 	+ for addition
@@ -64,7 +64,7 @@ What is javascript?
 	Adding a number to a boolean will convert the boolean to either 0(false) 
 	or 1 (true) before performing the operation.
 
-##comparison operators
+## comparison operators
 
 	Used to compare 2 values and return either true or false.
 	Javascript has both strict and type-converting comparisons.
@@ -73,7 +73,7 @@ What is javascript?
 	the more commonly used (==) is an abstract comparison, which converts
 	the operands to the same type before making a comparison.
 
-##functions
+## functions
 
 	a way of grouping operations under a given name so that they can
 	be called repeatedly.
