@@ -78,14 +78,14 @@
 	a way of grouping operations under a given name so that they can
 	be called repeatedly.
 
-###Control Structures
+### Control Structures
 
      Control Structures are logical conditions that allow you to control the flow of a program
 
 
-##CONDITIONAL STATEMENTS
+## CONDITIONAL STATEMENTS
 
-###IF STATEMENTS
+### IF STATEMENTS
 
      if(condition){
             code to run if condition is true
@@ -95,7 +95,7 @@
         the code within the block will only run if the given condition is true
 
 
-###ELSE STATEMENTS
+### ELSE STATEMENTS
 
         if(condition){
             code to run if condition is true
@@ -106,23 +106,23 @@
         the else keyword is used to add an extra block of code to run if the given
         condition is not met.
 
-###IF ELSE IF 
+### IF ELSE IF 
      use the else if statment to specify a new condition
      if the first condition was not met.
 
-###TERNARY OPERATOR
+### TERNARY OPERATOR
     the ternary operator (?) is a shorthand way of writing an if...else statement
     it takes 3 operands in the following format:
     condition ? (code to run if condition is true) : (code to run if condition is NOT true);
 
-###Switch Statements
+### Switch Statements
     We can string together if else statements to form logical decision tree
 
-##LOOPS
+## LOOPS
      used to repeat pieces of code over and over according 
      to certain conditions
 
-###WHILE LOOPS
+### WHILE LOOPS
     runs a block of code while the given condition is true
 
     while(condition){
@@ -130,13 +130,13 @@
     }
 
 
-###INFINITE LOOPS
+### INFINITE LOOPS
     it is important that the given condition in a while loop 
      will be met at some point
      if not, the loop will be infinite; crashing your program
 
 
-###DO... WHILE LOOPS
+### DO... WHILE LOOPS
     similar to a while loop, only difference being the condition is givn AFTER code block.
 
     do {
@@ -149,7 +149,7 @@
     regardless of the condition being true or not the tasks while loop
     example can be written as a do ... while with the same results:
 
-###FOR LOOPS
+### FOR LOOPS
     for(initialization; condition; after){
 	do something
     }
@@ -167,29 +167,29 @@
 
       We can write the above tasks while loop as a for loop:
 
-###NESTED FOR LOOPS 
+### NESTED FOR LOOPS 
      you can place a loop inside another loop to create a nested loop
 
      The inner loop will run all the way through before the outer loop iterates
 
 
-##Array Manipulation
+## Array Manipulation
      JavaScript arrays are used to store multiple related values in a single variable.
      An array can hold many values under a single name, and you can access the values by referring to an index number.
      It is similar to a list of items.
 
 
-###ARRAYS
+### ARRAYS
     enable us to store a collection of data 
     arrays are created by using the [] notation
     otherwise known as an array leteral
    
 
-###Push Method
+### Push Method
     allows to add an item into our array, by passing an argument through the method
     push. This will allows to add an item at the end of our array
 
-###Mutator Methods
+### Mutator Methods
 
     Mutator methods allow s to modify our array
     Push
@@ -199,46 +199,46 @@
     arrayName[array.length-1]
     to access the last item in our array.
 
-###pop method
+### Pop method
     removes the last element and returns the item you deleted. syntax: arrayName.pop()
 
-###Reverse
+### Reverse
     reverse the order of the elements in the array
 
 
-###Shift
+### Shift
     removes the first element in the array and returns what was removed
 
-###Sort
+### Sort
     sorts the element of an array in ascending order converts all items to string
     and orders them alphabetically
 
 
-###Anonymous Function
+### Anonymous Function
     It is a function without a callable name and works
     when declared
 
 
-###Splice
+### Splice
     you to simultaneously add and remove elements form an array
     in 1 command. 
     syntax: arrayName.splice(index, howMany, element1, element)
 
 
-###Unshift
+### Unshift
      adds one or more element to the beggining of the array and returns 
      the new length of the array
 
 
-##ACCESSOR METHODS
+## ACCESSOR METHODS
 
-###Concat
+### Concat
     combines two or more arrays into 1
     this creates and returns a new array
     and leaves the original arrays untouched
 
 
-###Join
+### Join
    
      takes the values in an array and joins them into a string.
      Performs a toString operation on each item prior to joining
@@ -246,45 +246,45 @@
      seperate items. 
      By default a comma will be used instead.
 
-###Slice
+### Slice
      return selected elements as new array
      syntax arrayname.slice(start, end)
      by default start is 0
 
-###indexOf
+### indexOf
     finds the first instance of an item in an array and returns its index.
     this is done using strict equality
     syntax: arrayName.indexOf(searchElement, fromIndex)
 
-###lastIndexOf
+### lastIndexOf
     it will return the last occurance of the search element
     it follows the syntax:
     arrayName.lastIndexOf(searchElement, fromIndex)
 
 
-##Iteration Methods
+## Iteration Methods
   
-###forEach
+### forEach
     works similar to a loop. forEach takes an anonymous function
     as its arguents
     and run the function for each of the items in the array.
     syntax arrayName.forEach(function(items){})
 
-###Map()
+### Map()
     similar tp forEach, but it always returns a new array after
     using the anonymous function
 
-###every
+### every
     used to apply a set of criteria to validate the data in an array
 
-###Some
+### Some
     used to check if one or most items in an array will pass a given test
 
-###Filter
+### Filter
     create a new array out of items that passed the given criteria
 
-###Reduce
+### Reduce
     performs a mathematical operation on an array and reduce it to a single value
 
-###Find
+### Find
     return the first item that passed the condition
