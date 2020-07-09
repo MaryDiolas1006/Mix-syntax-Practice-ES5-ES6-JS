@@ -1,0 +1,35 @@
+.hero {
+
+	color: blue;
+}
+
+.villain {
+
+	color: red;
+}
+
+.vigilante {
+
+	color: grey;
+}
+
+#amazon {
+
+	background: green;
+}
+
+.goddess {
+
+	border: 2px solid yellow;
+}
+
+.rosterBG {
+
+	background: violet;
+}
+
+/*.onSubmit {
+
+	background: orange;
+}
+*/
